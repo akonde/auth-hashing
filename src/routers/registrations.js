@@ -20,7 +20,7 @@ router.post('/', async (req, res) => {
     }
   })
     // Respond back to the client with the created users username and id
-    res.status(201).json({ user: undefined })
+    res.status(201).json({ user: user })
 });
 
 module.exports = router;
